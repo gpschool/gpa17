@@ -50,7 +50,6 @@ conference:
   - 2017-05-30
   draft: true # set to True if the programme is draft only.
   hosts:
-  general:
   - name: Manfred Opper
     url: "http://www.ki.tu-berlin.de/menue/team/manfred_opper/forschungsgebiete/"
   - name: Cedric Archambeau
