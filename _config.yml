@@ -1,14 +1,13 @@
 # Site settings
-title: Conference Name, Year
-email: your-email@domain.com
+title: Gaussian Process Approximations Workshop, 2017
+email: 
 description: > # this means to ignore newlines until "baseurl:"
-  Write a description for your conference or meeting here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Workshop on Gaussian Process Approximations in Berlin, Germany.
 baseurl: "/confweb" # the subpath of your site, e.g. /blog/
 url: "http://opendsi.cc" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: datascienceshef
 github_username:  sods
+facebook_page: odsi.sheffield
 
 
 youtube:
@@ -17,7 +16,7 @@ youtube:
 
 github:
   edit: true
-  repository: confweb
+  repository: gpschool
   
 markdown: kramdown
 
@@ -25,11 +24,11 @@ markdown: kramdown
 future: true
 
 permalink: "/:categories/:title.html"
-banner: nice_conference_banner.jpeg
+banner: 
 
 analytics:
  google:
-   tracking_id: # Google tracking ID if applicable
+   tracking_id: UA-62991754-1 
 
 youtube:
   height: 315
@@ -40,38 +39,27 @@ conference:
   hide_tentative: true
   hosts:
   
-  room: Room
-  venue: Convention Centre
-  location: City, Country
-  name: Conference Name
+  room: 
+  venue: Amazon Development Center Berlin
+  location: Krausenstraße 38, 10117 Berlin, Germany, Berlin, Germany
+  name: Gaussian Process Approximations
   year: 2017
-  month: September
+  month: May
   dates:
   - 2017-09-12
   - 2017-09-13
   draft: true # set to True if the programme is draft only.
   hosts:
   general:
-  - name: Jack Jones
-    url: "http://jackjones.org"
-  - name: Bill Bloggs
-    url: "http://billblogs.org"
-  workshop:
-  - name:
-    url:
-  symposium:
-  - name:
-    url:
-    institute:
-  local:
-  - name:
-    url:
-  sponsors:
-  - name:
-    url:
+  - name: Manfred Opper
+    url: "http://www.ki.tu-berlin.de/menue/team/manfred_opper/forschungsgebiete/"
+  - name: Cedric Archambeau
+    url: "http://www0.cs.ucl.ac.uk/staff/c.archambeau/"
+  - name: Neil Lawrence
+    url: "http://inverseprobability.com"
 previous_meeting:
-  name:
-  url:
+  name: Gaussian Process Approximations, 2015
+  url: "http://gpss.cc/gpa2015"
 
 map:
   show: False
