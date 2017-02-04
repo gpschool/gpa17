@@ -3,8 +3,8 @@ title: Gaussian Process Approximations Workshop, 2017
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   Workshop on Gaussian Process Approximations in Berlin, Germany.
-baseurl: "/confweb" # the subpath of your site, e.g. /blog/
-url: "http://opendsi.cc" # the base hostname & protocol for your site
+baseurl: "/gpa17" # the subpath of your site, e.g. /blog/
+url: "http://gpss.cc" # the base hostname & protocol for your site
 twitter_username: datascienceshef
 github_username:  sods
 facebook_page: odsi.sheffield
@@ -59,7 +59,7 @@ conference:
     url: "http://inverseprobability.com"
 previous_meeting:
   name: Gaussian Process Approximations, 2015
-  url: "http://gpss.cc/gpa2015"
+  url: "http://gpss.cc/gpa15"
 
 map:
   show: False
