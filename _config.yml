@@ -1,6 +1,6 @@
 # Site settings
 title: Gaussian Process Approximations Workshop, 2017
-email: 
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Workshop on Gaussian Process Approximations in Berlin, Germany.
 baseurl: "/gpa17" # the subpath of your site, e.g. /blog/
@@ -17,18 +17,18 @@ youtube:
 github:
   edit: true
   repository: gpa17
-  
+
 markdown: kramdown
 
 # Build settings
 future: true
 
 permalink: "/:categories/:title.html"
-banner: 
+banner:
 
 analytics:
  google:
-   tracking_id: UA-62991754-1 
+   tracking_id: UA-62991754-1
 
 youtube:
   height: 315
@@ -38,8 +38,8 @@ conference:
   draft: true
   hide_tentative: true
   hosts:
-  
-  room: 
+
+  room:
   venue: Amazon Development Center Berlin
   location: Krausenstraße 38, 10117 Berlin, Germany, Berlin, Germany
   name: Gaussian Process Approximations
@@ -71,3 +71,11 @@ map:
     zoom_level: 17
     width: 100%
     height: 500px
+
+registration:
+  fees:
+    academy: 400
+    industry: 500
+  included: workshops, coffee breaks, and a conference dinner (possibly more)
+  deadline: March 15th
+  form: https://docs.google.com/forms/d/e/1FAIpQLSdiJEExGsyZYSzI0l7_gjD8z5rMfzaIi0XF6WAsvNxkbls62g/viewform
