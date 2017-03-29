@@ -74,8 +74,8 @@ map:
 
 registration:
   fees:
-    academy: 400
-    industry: 500
-  included: workshops, coffee breaks, and a conference dinner (possibly more)
+    academy: 
+    industry:
+    included: 
   deadline: March 15th
   form: https://docs.google.com/forms/d/e/1FAIpQLSdiJEExGsyZYSzI0l7_gjD8z5rMfzaIi0XF6WAsvNxkbls62g/viewform
