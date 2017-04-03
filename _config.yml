@@ -49,7 +49,7 @@ conference:
   - 2017-05-29
   - 2017-05-30
   draft: true # set to True if the programme is draft only.
-  hosts:
+  organizers:
   - name: Cedric Archambeau
      url: "http://www0.cs.ucl.ac.uk/staff/c.archambeau/"
      institute: Amazon
