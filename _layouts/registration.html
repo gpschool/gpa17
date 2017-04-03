@@ -7,8 +7,9 @@ title: Registration
   <p> GPA is an invitation-only event, and it is not possible to transfer this invitation to others. If you haven't been contacted yet, but you'd like to attend, please e-mail us.</p>
 
   <p> Please use the following link to register: <a href="{{ site.registration.form }}" target="_blank"> <b> Registration </b> </a></p>
-
-  <p></p>
-
+{% if site.registration.deadline %}
+<p>Registration will close on {{ site.registration.deadline | date: %d %m %Y }}
+</p>
+{% endif %}
 
 </article>
