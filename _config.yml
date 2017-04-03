@@ -50,13 +50,18 @@ conference:
   - 2017-05-30
   draft: true # set to True if the programme is draft only.
   hosts:
-  - name: Manfred Opper
-    url: "http://www.ki.tu-berlin.de/menue/team/manfred_opper/forschungsgebiete/"
   - name: Cedric Archambeau
-    url: "http://www0.cs.ucl.ac.uk/staff/c.archambeau/"
+     url: "http://www0.cs.ucl.ac.uk/staff/c.archambeau/"
+     institute: Amazon
+  - name: Pablo Moreno
+     url: "https://www.linkedin.com/in/pablo-garc%C3%ADa-moreno-4b812087"
+     institute: Amazon
   - name: Neil Lawrence
-    url: "http://inverseprobability.com"
-
+     url: "http://inverseprobability.com"
+     institute: Amazon and University of Sheffield
+  - name: Manfred Opper
+     url: "http://www.ki.tu-berlin.de/menue/team/manfred_opper/forschungsgebiete/"
+     institute: TU Berlin
 previous_meeting:
   name: Gaussian Process Approximations, 2015
   url: "http://gpss.cc/gpa15"
