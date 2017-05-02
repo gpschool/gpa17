@@ -37,6 +37,7 @@ youtube:
 conference:
   draft: true
   hide_tentative: true
+  summarize_single: false
   hosts:
 
   room:
