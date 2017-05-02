@@ -38,6 +38,7 @@ layout: default
     
     
     {% if page.show_abstracts %}
+    {% unless site.conference.abstract_local %}
     <h1 style='font-size:2em'>Abstracts</h1>
 <!--    abstracts-->
     {% for talk in page.talks %}
@@ -55,6 +56,7 @@ layout: default
         {% endif %}
     {% endfor %}
 
+{% endunless %}
     {% endif %}
 
   </article>

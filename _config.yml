@@ -38,6 +38,7 @@ conference:
   draft: true
   hide_tentative: true
   summarize_single: false
+  abstract_local: true   # whether to show abstracts by talk title or below
   hosts:
 
   room:
