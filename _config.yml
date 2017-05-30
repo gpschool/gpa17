@@ -35,7 +35,7 @@ youtube:
   width: 560
 
 conference:
-  draft: true
+  draft: false
   hide_tentative: true
   summarize_single: false
   abstract_local: true   # whether to show abstracts by talk title or below
@@ -50,7 +50,7 @@ conference:
   dates:
   - 2017-05-29
   - 2017-05-30
-  draft: true # set to True if the programme is draft only.
+  draft: false # set to True if the programme is draft only.
   organizers:
   - name: Cedric Archambeau
     url: "http://www0.cs.ucl.ac.uk/staff/c.archambeau/"
@@ -81,8 +81,8 @@ map:
 
 registration:
   fees:
-    academy: 
+    academy:
     industry:
-    included: 
+    included:
   deadline: 2017-04-28
   form: https://goo.gl/forms/zgqB7lFUWxckPTrW2
